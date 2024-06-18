@@ -1,0 +1,17 @@
+<div class="container text-center mt-5">
+  <div class="card mx-auto" style="max-width: 500px;">
+    <div class="card-body bg-light">
+      <p class="card-text"><%= @search %></p>
+      <p class="card-subtitle mb-2 text-muted">- You</p>
+    </div>
+  </div>
+
+  <div class="card mx-auto mt-3" style="max-width: 500px;">
+    <div class="card-body bg-light">
+      <p class="card-text"><%= @response %></p>
+      <p class="card-subtitle mb-2 text-muted">- Your coach</p>
+    </div>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path, class: "btn btn-primary btn-lg mt-3" %>
+</div>
