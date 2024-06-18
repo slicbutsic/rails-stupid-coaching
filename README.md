@@ -23,3 +23,4 @@ Things you may want to cover:
 
 * ...
 # Rails-stupid-coach
+# Rails-stupid-coach
